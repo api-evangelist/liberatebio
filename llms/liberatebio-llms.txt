@@ -1,0 +1,32 @@
+# Liberate Bio
+
+> Liberate Bio is a genetic medicine company developing in vivo cell therapies that reach cell populations beyond the liver. Its RAPTOR discovery platform screens lipid nanoparticle (LNP) delivery vehicles inside living organisms to find carriers that deliver genetic payloads to immune cells in blood, bone marrow, and the spleen. The company applies this delivery capability to in vivo CAR-M (chimeric antigen receptor macrophage) programs in hematologic oncology and autoimmune disease. Liberate Bio publishes no public API, developer portal, or machine-readable interface; this file describes the company for agents and is generated from the API Evangelist catalog.
+
+## Company
+
+- [Liberate Bio](https://www.liberatebio.com/): Company home — genetic medicines that transcend liver-based limitations.
+- [About Us](https://www.liberatebio.com/about-us): Mission, leadership, and founding team.
+- [Contact](https://www.liberatebio.com/contact-us): Contact form; general inquiries at info@liberatebio.com.
+- [LinkedIn](https://www.linkedin.com/company/liberate-bio/): Company updates.
+
+## Platform
+
+- [RAPTOR Platform](https://www.liberatebio.com/platform): Scalable in vivo discovery system that identifies LNP delivery solutions working with existing biology, with an initial focus on the bone marrow.
+
+## Programs
+
+- [Programs Overview](https://www.liberatebio.com/liberate-programs): In vivo CAR-M programs built on RAPTOR-discovered delivery.
+- [Oncology](https://www.liberatebio.com/programs-oncology): Targeted elimination of malignant cells in hematologic cancers.
+- [Autoimmunity](https://www.liberatebio.com/programs-autoimmunity): Selective immune reset through depletion of pathogenic B-cell populations.
+
+## API Evangelist
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/liberatebio/refs/heads/main/apis.yml): Machine-readable company profile.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/liberatebio/refs/heads/main/security/liberatebio-domain-security.yml): TLS, HSTS, DNSSEC, CAA, SPF, and DMARC posture for liberatebio.com.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/liberatebio/refs/heads/main/well-known/liberatebio-well-known.yml): Recorded /.well-known/ discovery results (all 404).
+
+## Notes
+
+- No public API, OpenAPI/AsyncAPI specification, SDK, package-registry release, CLI, MCP server, sandbox, changelog, or status page was found as of 2026-07-19.
+- No GitHub organization was found for Liberate Bio.
+- Backed by Khosla Ventures ($31M, October 2025).

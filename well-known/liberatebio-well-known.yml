@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://www.liberatebio.com/.well-known/*
+host: https://www.liberatebio.com
+notes: >-
+  Liberate Bio is a pre-clinical genetic medicine company with a marketing-only
+  Webflow site and no developer or API surface. Every /.well-known/ discovery
+  document was probed and returned 404. This is a recorded negative result, not
+  a gap awaiting an artifact.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
