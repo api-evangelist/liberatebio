@@ -1,20 +1,46 @@
 aid: liberatebio
-name: Liberatebio
-description: Liberatebio is a company surfaced as a portfolio company of khosla-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Liberate Bio
+description: Liberate Bio is a genetic medicine company developing in vivo cell therapies that reach
+  cell populations beyond the liver, the long-standing limit of lipid nanoparticle delivery. Its RAPTOR
+  discovery platform is a scalable in vivo screening system that identifies LNP delivery vehicles which
+  work with existing biology to carry genetic payloads into immune cells in blood, bone marrow, and the
+  spleen. Liberate Bio applies that delivery capability to in vivo CAR-M (chimeric antigen receptor
+  macrophage) programs, reprogramming monocytes and macrophages to eliminate disease-driving cells
+  without ex vivo manipulation, with programs in hematologic oncology and in autoimmune disease via
+  depletion of pathogenic B-cell populations. Founded by Nessan Bermingham, Theresa M. Reineke, and
+  Michael Mitchell, and led by CEO Shawn Davis and CSO Walter Strapps, the company raised $31M from
+  Khosla Ventures in October 2025. It is pre-clinical and publishes no public API or developer surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67e3bde7b915febd27c1c697/67eac222ce05837cb0310a11_Liberate%20Bio%20Logo%20Horizonta%20(White)%20Ver-2.png
 url: https://raw.githubusercontent.com/api-evangelist/liberatebio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - khosla-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Genetic Medicine
+- Cell Therapy
+- Oncology
+- Autoimmune Disease
+- Drug Discovery
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.liberatebio.com/
+- type: About
+  url: https://www.liberatebio.com/about-us
+- type: Platform
+  url: https://www.liberatebio.com/platform
+- type: Contact
+  url: https://www.liberatebio.com/contact-us
+- type: LinkedIn
+  url: https://www.linkedin.com/company/liberate-bio/
+- type: DomainSecurity
+  url: security/liberatebio-domain-security.yml
+- type: LLMsTxt
+  url: llms/liberatebio-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
