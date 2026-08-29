@@ -34,6 +34,9 @@ accessModel:
   method: derived
 image: https://cdn.prod.website-files.com/67e3bde7b915febd27c1c697/67eac222ce05837cb0310a11_Liberate%20Bio%20Logo%20Horizonta%20(White)%20Ver-2.png
 url: https://raw.githubusercontent.com/api-evangelist/liberatebio/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It is pre-clinical and publishes no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
