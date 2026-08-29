@@ -10,6 +10,17 @@ description: Liberate Bio is a genetic medicine company developing in vivo cell 
   depletion of pathogenic B-cell populations. Founded by Nessan Bermingham, Theresa M. Reineke, and
   Michael Mitchell, and led by CEO Shawn Davis and CSO Walter Strapps, the company raised $31M from
   Khosla Ventures in October 2025. It is pre-clinical and publishes no public API or developer surface.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
