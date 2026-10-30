@@ -64,18 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Liberate Bio is a genetic medicine company developing in vivo cell therapies that reach cell populations beyond the liver, the long-standing limit of lipid nanoparticle delivery. Its RAPTOR discovery platform screens LNP delivery vehicles inside living organisms to find carriers that deliver genetic payloads into immune cells in blood, bone marrow, and the spleen. That delivery capability feeds in vivo CAR-M (chimeric antigen receptor macrophage) programs in hematologic oncology and in autoimmune disease.
+Liberate Bio is a genetic medicine company developing in vivo cell therapies that reach cell populations beyond the liver, the long-standing limit of lipid nanoparticle delivery. Its RAPTOR discovery platform is a scalable in vivo screening system that identifies LNP delivery vehicles which work with existing biology to carry genetic payloads into immune cells in blood, bone marrow, and the spleen. Liberate Bio applies that delivery capability to in vivo CAR-M (chimeric antigen receptor macrophage) programs, reprogramming monocytes and macrophages to eliminate disease-driving cells without ex vivo manipulation, with programs in hematologic oncology and in autoimmune disease via depletion of pathogenic B-cell populations. Founded by Nessan Bermingham, Theresa M. Reineke, and Michael Mitchell, and led by CEO Shawn Davis and CSO Walter Strapps, the company raised $31M from Khosla Ventures in October 2025. It is pre-clinical and publishes no public API or developer surface.
 
-Backed by: khosla-ventures ($31M, October 2025) — https://www.liberatebio.com/
+**Areas:** Company · Biotechnology · Genetic Medicine · Cell Therapy · Oncology · Autoimmune Disease · Drug Discovery · Life Sciences
 
-## API surface
+## Liberate Bio on APIs.io
 
-Liberate Bio is a pre-clinical biotech with a marketing-only website. As of 2026-07-19 it publishes **no public API**: no OpenAPI/AsyncAPI specification, developer portal, documentation, SDK, package-registry release, CLI, MCP server, sandbox, changelog, or status page. No GitHub organization was found, and every `/.well-known/` discovery document returns 404.
+Everything profiled for Liberate Bio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/liberatebio/](https://apis.io/providers/liberatebio/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Artifact | File | Method |
-|---|---|---|
-| Domain security | `security/liberatebio-domain-security.yml` | probed |
-| Well-known probe | `well-known/liberatebio-well-known.yml` | searched (all 404) |
-| llms.txt | `llms/liberatebio-llms.txt` | generated |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Liberatebio Domain Security](https://apis.io/security/liberatebio/liberatebio-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.liberatebio.com/)
+
+## API Evangelist rating
+
+**Kin Score 4.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/liberatebio/](https://apis.io/providers/liberatebio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Liberate Bio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/liberatebio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
